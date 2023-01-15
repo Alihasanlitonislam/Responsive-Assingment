@@ -1,0 +1,153 @@
+.display-none{
+    display: none;
+}
+@media only screen and (max-width: 570px) {
+    header.header-section {
+        background: none;
+    }
+    .main-section-title {
+        margin-top: 10px;
+    }
+    nav.nav-log-title {
+        flex-direction: column;
+    }
+    .nav-log h1 {
+        text-align: center;
+        margin-top: 20px;
+    }    
+    section.container {
+        width: 100%;
+        padding: 0;
+    }    
+    .nav-manu-section li {
+        margin-left: 2px;
+    }
+    /* main section title and images */
+    .main-title {
+        font-size: 30px;
+        line-height: initial;
+    }
+    .section-team {
+        flex-direction: column;
+    }
+    .section-team-images {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-team-discription h2 {
+        font-size: 30px;
+    }    
+    .section-team-discription {
+        text-align: center;
+    }    
+    .section-team-pragrahp {
+        font-size: 12px;
+    }
+    .btn{
+        margin: 10px 0;
+    }
+    /* section description title and images */
+    section.discription {
+        flex-direction: column;
+    }    
+    .discription-titels {
+        width: 100%;
+    }    
+    .discription-images {
+        width: 100%;
+    }    
+    .discription-heading {
+        border: none;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        padding: 0;
+    }    
+    .discription-pragerahp {
+        padding: 0 10px;
+        text-align: center;
+    }
+    .discription-title-ber {
+        padding: 0 10px;
+        text-align: center;
+    }
+    .discription-images {
+        text-align: center;
+        position: unset;
+    }
+    .discription-images .btn-experience {
+        position: inherit;
+        width: 80%;
+        padding: 0;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    /* cards section  list*/
+    .card-title {
+        text-align: center;
+    }    
+    section.card-section {
+        padding: 7px;
+    }    
+    .cards-log {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        row-gap: 10px;
+    }
+    /* team section */
+    section.team-section {
+        padding-top: 0px;
+    }
+    .team-title h1 {
+        font-size: 30px;
+    }
+    .team-log {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 10px;
+        padding: 0;
+    }
+    /* footer section offices description */
+    footer.footer-section {
+        flex-direction: column-reverse;
+        background: none;
+        padding: 0;
+    }    
+    .our-offices {
+        padding: 0;
+        width: 100%;
+    }    
+    .request {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    .offices-contacks {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }    
+    .offices-contack-list {
+        width: 80%;
+        margin: auto;
+    }    
+    .offices-description h1 {
+        border: none;
+        font-size: 30px;
+        text-align: center;
+    }    
+    .offices-description p {
+        padding: 0 10px;
+        text-align: center;
+    }
+    .footer-copy-right {
+        padding: 10px;
+    }
+}
